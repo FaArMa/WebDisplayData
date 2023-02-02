@@ -1,0 +1,54 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #d3d3d3;
+    font-size: 0.875em;
+    padding: 0.75em;
+    text-align: center;
+}
+
+a, a:link, a:visited, a:focus, a:active {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #595959;
+    text-decoration: underline;
+}
+
+main {
+    align-content: center;
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main > section {
+    background-color: #ADD8E6;
+    margin: 1.25em 0;
+    padding: 1.25em;
+    text-align: center;
+    width: 94%;
+}
+
+@media (min-width: 768px) {
+    header {
+        font-size: 1em;
+    }
+
+    main > section {
+        margin: 1.25em;
+        width: 44%;
+    }
+}
