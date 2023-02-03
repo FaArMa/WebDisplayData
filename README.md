@@ -11,3 +11,6 @@ A small page to know the following data of your display:
 1. The *User agent type* may not be accurate in determining if it's Mobile or Desktop, but it shouldn't fail to determine if it's touch or not.
 2. If it works in *Internet Explorer 11* or another unsupported browser, it's lucky.
 3. Yes, I made a page to add the data from my various devices to the "Device toolbar" of my web browser ([Chrome DevTools](https://developer.chrome.com/docs/devtools/), [Firefox DevTools](https://firefox-source-docs.mozilla.org/devtools-user/), etc.).
+
+## Credits
+- Favicon: [Icon made by Freepik from Flaticon](https://www.flaticon.com/free-icon/responsive_536255)
